@@ -1,0 +1,47 @@
+package Calculator;
+import java.util.Scanner;
+public class Calculator {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter first number:");
+		double num1 = sc.nextDouble();
+		
+		System.out.println("Enter Second number:");
+		double num2= sc.nextDouble();
+		
+		System.out.println("Enter an operator(+,-,*,/):" );
+		char operator = sc.next().charAt(0);
+		
+		sc.close();
+		double output;
+		
+		switch(operator)
+		{
+		case '+':
+			output = num1+num2;
+			break;
+			
+		case '-':
+			output = num1-num2;
+			break;
+			
+		case '*':
+			output = num1*num2;
+			break;
+			
+		case '/':
+			output = num1/num2;
+			break;
+		
+		default:
+			System.out.println("Invalid Operator:");
+			return;
+			
+			
+		}
+		
+		System.out.println("The result is given:");
+		System.out.println(num1 + " " + operator + " " + num2 + "="  + output); 
+	}
+}

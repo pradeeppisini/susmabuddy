@@ -1,0 +1,21 @@
+Arithmetic Calculator
+
+As a developer, write a Java code to create a calculator to perform 
+the four basic arithmetic operations (addition, subtraction, multiplication, and division).
+
+
+A public class named Calculator. Inside this class, 
+four methods are defined: add, subtract, multiply, and divide. 
+Each of these methods takes two parameters of type double (num1 and num2) 
+and returns a double.
+
+The add method returns the sum of num1 and num2.
+The subtract method returns the difference of num1 and num2.
+The multiply method returns the product of num1 and num2.
+The divide method returns the quotient of num1 and num2
+
+The main method is to enter the point of the program.
+It creates an instance of the Calculator class and uses it to perform 
+the four operations
+It does not include any user input or error handling beyond the division zero check.
+
